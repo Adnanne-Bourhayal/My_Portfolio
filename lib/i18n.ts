@@ -22,7 +22,7 @@ export const translations = {
     about: {
       title: "About Me",
       description:
-        "I enjoy building modern software that's simple to use and solid under the hood. I'm curious by nature and I learn fast by shipping real projects. I'm finishing a Computer Science degree taught in English. I'm especially interested in clean architecture, automation, and security-aware development habits. I work well both independently and in teams.",
+        "I have a background in Computer Science and hands-on experience with Windows support, user access, Microsoft tools and database-driven applications. I enjoy understanding technical problems and explaining solutions clearly. I am looking for an entry-level role in application support, technical support or customer onboarding, working in Spanish and English.",
       highlight1Title: "Security Mindset",
       highlight1Desc: "Secure coding habits, careful input handling, and auth basics.",
       highlight2Title: "Fast Learning & Adaptability",
@@ -32,13 +32,13 @@ export const translations = {
       whatIDoTitle: "What I Do",
       whatIDo: [
         {
-          title: "Web Development",
-          description: "Build responsive web apps and UI that feel fast and clean.",
+          title: "Technical Support",
+          description: "Troubleshoot Windows, user access and application configuration issues.",
           items: [],
         },
         {
-          title: "Backend Development",
-          description: "Design reliable APIs, data models, and integrations.",
+          title: "Applications & Data",
+          description: "Work with CRM workflows, SQL databases and REST APIs.",
           items: [],
         },
         {
@@ -90,15 +90,15 @@ export const translations = {
         name: "CorpWallet",
         tagline: "Enterprise Transaction Security",
         status: "Demo",
-        description: "Secure enterprise transaction approval system with runtime trust evaluation.",
+        description: "Academic proof of concept for transaction approval and runtime risk scoring.",
         problem:
           "Enterprise finance teams need secure, verifiable transaction approval workflows that can detect compromised devices.",
         solution:
           "Built a mobile-first POC with runtime integrity checks, risk scoring, and multi-layer approval policies.",
         outcome:
-          "Demonstrates secure transaction control for enterprise finance with real-time trust verification.",
+          "Demonstrates transaction approval logic in a prototype; not a certified financial security product.",
         highlights: [
-          "Runtime trust scoring (100 = verified secure)",
+          "Prototype runtime risk scoring",
           "Risk-based transaction flagging",
           "Multi-layer approval policies",
         ],
@@ -122,7 +122,7 @@ export const translations = {
           "Transaction management dashboard",
           "API-driven architecture with FastAPI",
         ],
-        tech: ["Next.js", "FastAPI", "PostgreSQL", "Vercel"],
+        tech: ["React", "Vite", "FastAPI", "PostgreSQL", "Vercel"],
         liveUrl: "https://finflowbeta.vercel.app/",
         githubUrl: "https://github.com/Adnanne-Bourhayal/finflow-frontend",
       },
@@ -194,6 +194,10 @@ export const translations = {
       learning: "Currently Learning",
       aiTools: "AI Tools",
       strongSkills: [
+        "Windows support",
+        "Microsoft Office",
+        "CRM tools",
+        "User access & permissions",
         "Java",
         "C# / .NET",
         "SQL (PostgreSQL / MySQL)",
@@ -213,20 +217,20 @@ export const translations = {
     experience: {
       title: "Experience",
       job1: {
-        title: "Full Stack Developer",
+        title: "Software Development & IT Support Intern",
         company: "UDIT",
         location: "Madrid, Spain",
-        period: "Oct 2024 – Jun 2025",
+        period: "Nov 2024 – Jun 2025",
         highlights: [
-          "Built a university booking portal (ASP.NET, SQL, Bootstrap) to manage resources and prevent scheduling conflicts.",
-          "Improved delivery speed with structured workflows and automated checks.",
+          "Developed a university booking portal using ASP.NET Core, SQL and Bootstrap.",
+          "Configured Windows environments and user permissions, resolved access and equipment issues, and documented procedures.",
         ],
       },
       job2: {
         title: "Postal Operator",
         company: "bpost",
         location: "Belgium",
-        period: "Jun 2024 – Sep 2024",
+        period: "Student and temporary assignments (non-continuous)",
         highlights: [
           "High-accuracy work in a fast-paced environment; strong reliability and discipline.",
         ],
@@ -235,7 +239,7 @@ export const translations = {
         title: "Logistics Operator",
         company: "Nike / Maersk",
         location: "Belgium",
-        period: "2023",
+        period: "Jun 2024 – Oct 2024",
         highlights: [
           "High-accuracy work in a fast-paced environment; strong reliability and discipline.",
         ],
@@ -247,15 +251,15 @@ export const translations = {
         title: "BSc Computer Science (English-taught)",
         institution: "UCAM + IBES",
         location: "English-taught",
-        period: "Oct 2023 – Jun 2026",
+        period: "Oct 2025 – 2026",
         description:
-          "Computer science program taught in English, focused on modern software development.",
+          "English-taught top-up programme. Final project approved in 2026; formal award documentation pending.",
       },
       degree2: {
         title: "Higher Technical Degree (DAM)",
-        institution: "Multiplatform Application Development",
+        institution: "Pro2FP",
         location: "Spain",
-        period: "2022 – 2024",
+        period: "Sep 2023 – Jun 2025",
         description:
           "Java, databases, web development, mobile apps, and software engineering.",
       },
@@ -271,11 +275,11 @@ export const translations = {
         spanish: "Spanish",
         spLevel: "Native",
         english: "English",
-        enLevel: "B2 Advanced — C1 in progress",
+        enLevel: "Professional C1 (self-assessed)",
         french: "French",
-        frLevel: "Basic",
+        frLevel: "Interested in learning",
         dutch: "Dutch",
-        nlLevel: "Basic",
+        nlLevel: "Basic A1–A2 · learning",
       },
     },
     contact: {
@@ -315,7 +319,7 @@ export const translations = {
     about: {
       title: "Sobre Mi",
       description:
-        "Disfruto construyendo software moderno que es simple de usar y solido por dentro. Soy curioso por naturaleza y aprendo rapido lanzando proyectos reales. Estoy terminando un grado en Informatica impartido en ingles. Me interesa especialmente la arquitectura limpia, la automatizacion y los habitos de desarrollo seguros. Trabajo bien tanto de forma independiente como en equipo.",
+        "Tengo formación en Computer Science y experiencia práctica con soporte Windows, accesos de usuarios, herramientas Microsoft y aplicaciones con bases de datos. Me gusta entender los problemas técnicos y explicar soluciones con claridad. Busco una oportunidad inicial en soporte de aplicaciones, soporte técnico o incorporación de clientes, trabajando en español e inglés.",
       highlight1Title: "Mentalidad de Seguridad",
       highlight1Desc: "Habitos de codigo seguro, manejo cuidadoso de entradas y fundamentos de autenticacion.",
       highlight2Title: "Aprendizaje Rapido y Adaptabilidad",
@@ -325,7 +329,7 @@ export const translations = {
       whatIDoTitle: "Lo Que Hago",
       whatIDo: [
         {
-          title: "Desarrollo Web",
+          title: "Soporte técnico",
           description: "Construyo aplicaciones web responsivas y UI que se sienten rapidas y limpias.",
           items: [],
         },
@@ -383,7 +387,7 @@ export const translations = {
         name: "CorpWallet",
         tagline: "Seguridad de Transacciones Empresariales",
         status: "Demo",
-        description: "Sistema seguro de aprobacion de transacciones empresariales con evaluacion de confianza en tiempo real.",
+        description: "Prototipo académico de aprobación de transacciones y evaluación de riesgos.",
         problem:
           "Los equipos de finanzas empresariales necesitan flujos de aprobacion de transacciones seguros y verificables.",
         solution:
@@ -391,7 +395,7 @@ export const translations = {
         outcome:
           "Demuestra control seguro de transacciones para finanzas empresariales con verificacion de confianza en tiempo real.",
         highlights: [
-          "Puntuacion de confianza en tiempo real (100 = seguro verificado)",
+          "Puntuación de riesgo experimental",
           "Marcado de transacciones basado en riesgo",
           "Politicas de aprobacion multicapa",
         ],
@@ -415,7 +419,7 @@ export const translations = {
           "Dashboard de gestion de transacciones",
           "Arquitectura API con FastAPI",
         ],
-        tech: ["Next.js", "FastAPI", "PostgreSQL", "Vercel"],
+        tech: ["React", "Vite", "FastAPI", "PostgreSQL", "Vercel"],
         liveUrl: "https://finflowbeta.vercel.app/",
         githubUrl: "https://github.com/Adnanne-Bourhayal/finflow-frontend",
       },
@@ -489,6 +493,10 @@ export const translations = {
       learning: "Aprendiendo Actualmente",
       aiTools: "Herramientas IA",
       strongSkills: [
+        "Windows support",
+        "Microsoft Office",
+        "CRM tools",
+        "User access & permissions",
         "Java",
         "C# / .NET",
         "SQL (PostgreSQL / MySQL)",
@@ -508,20 +516,20 @@ export const translations = {
     experience: {
       title: "Experiencia",
       job1: {
-        title: "Desarrollador Full Stack",
+        title: "Prácticas de desarrollo y soporte IT",
         company: "UDIT",
         location: "Madrid, Espana",
-        period: "Oct 2024 – Jun 2025",
+        period: "Nov 2024 – Jun 2025",
         highlights: [
-          "Construi un portal de reservas universitario (ASP.NET, SQL, Bootstrap) para gestionar recursos y prevenir conflictos de horarios.",
-          "Mejore la velocidad de entrega con flujos de trabajo estructurados y verificaciones automatizadas.",
+          "Desarrollé un portal de reservas universitario con ASP.NET Core, SQL y Bootstrap.",
+          "Configuré entornos Windows y permisos de usuarios, resolví incidencias de acceso y equipos, y documenté procedimientos.",
         ],
       },
       job2: {
         title: "Operador Postal",
         company: "bpost",
         location: "Belgica",
-        period: "Jun 2024 – Sep 2024",
+        period: "Contratos de estudiante y temporales (discontinuos)",
         highlights: [
           "Trabajo de alta precision en un entorno de ritmo rapido; fuerte fiabilidad y disciplina.",
         ],
@@ -530,7 +538,7 @@ export const translations = {
         title: "Operador Logistico",
         company: "Nike / Maersk",
         location: "Belgica",
-        period: "2023",
+        period: "Jun 2024 – Oct 2024",
         highlights: [
           "Trabajo de alta precision en un entorno de ritmo rapido; fuerte fiabilidad y disciplina.",
         ],
@@ -542,15 +550,15 @@ export const translations = {
         title: "Grado en Informática (Top-Up)",
         institution: "UCAM + IBES",
         location: "Online (Inglés)",
-        period: "Oct 2025 – Jun 2026",
+        period: "Oct 2025 – 2026",
         description:
-          "Programa avanzado de informática impartido en inglés, enfocado en prácticas modernas de desarrollo de software.",
+          "Programa top-up cursado en inglés. Proyecto final aprobado en 2026; documentación formal del título pendiente.",
       },
       degree2: {
         title: "Grado Superior (DAM)",
-        institution: "Desarrollo de Aplicaciones Multiplataforma",
+        institution: "Pro2FP",
         location: "España",
-        period: "2022 – 2024",
+        period: "Sep 2023 – Jun 2025",
         description:
           "Programa completo que cubre Java, bases de datos, desarrollo web, aplicaciones móviles e ingeniería de software.",
       },
@@ -566,11 +574,11 @@ export const translations = {
         spanish: "Español",
         spLevel: "Nativo",
         english: "Inglés",
-        enLevel: "B2 Avanzado — C1 en progreso",
+        enLevel: "Profesional C1 (autoevaluado)",
         french: "Francés",
-        frLevel: "Básico",
+        frLevel: "Interés en aprender",
         dutch: "Holandés",
-        nlLevel: "Básico",
+        nlLevel: "Básico A1–A2 · aprendiendo",
       },
     },
     contact: {
@@ -616,7 +624,7 @@ export const translations = {
     about: {
       title: "Over Mij",
       description:
-        "DAM afgestudeerde (Hogere Technische Graad in Softwareontwikkeling), momenteel bezig met een Engelse Computer Science top-up (online). Ik focus op ontwikkeling, automatisering, toegepaste AI en cybersecurity fundamenten om bedrijfsgerichte oplossingen te leveren.",
+        "Ik heb een achtergrond in Computer Science en praktische ervaring met Windows-ondersteuning, gebruikerstoegang, Microsoft-tools en databasetoepassingen. Ik begrijp graag technische problemen en leg oplossingen duidelijk uit. Ik zoek een startersfunctie in application support, technical support of klantonboarding, in het Spaans en Engels.",
       highlight1Title: "Security Mindset",
       highlight1Desc: "OWASP basics, veiligere input handling, least-privilege denken",
       highlight2Title: "Snel Leren & Aanpassingsvermogen",
@@ -626,7 +634,7 @@ export const translations = {
       whatIDoTitle: "Wat Ik Doe",
       whatIDo: [
         {
-          title: "Webontwikkeling",
+          title: "Technische ondersteuning",
           items: ["React/Next.js responsive UI", "Schone, herbruikbare componenten"],
         },
         {
@@ -681,7 +689,7 @@ export const translations = {
         name: "CorpWallet",
         tagline: "Enterprise Transactiebeveiliging",
         status: "Demo",
-        description: "Veilig enterprise transactie-goedkeuringssysteem met runtime vertrouwensevaluatie.",
+        description: "Academisch prototype voor transactiegoedkeuring en risicoanalyse.",
         problem:
           "Enterprise financeteams hebben veilige, verifieerbare transactie-goedkeuringsworkflows nodig.",
         solution:
@@ -689,7 +697,7 @@ export const translations = {
         outcome:
           "Demonstreert veilige transactiecontrole voor enterprise finance met realtime vertrouwensverificatie.",
         highlights: [
-          "Runtime vertrouwensscore (100 = geverifieerd veilig)",
+          "Experimentele risicoscore",
           "Risico-gebaseerde transactiemarkering",
           "Meerlaags goedkeuringsbeleid",
         ],
@@ -713,7 +721,7 @@ export const translations = {
           "Transactiebeheer dashboard",
           "API-gedreven architectuur met FastAPI",
         ],
-        tech: ["Next.js", "FastAPI", "PostgreSQL", "Vercel"],
+        tech: ["React", "Vite", "FastAPI", "PostgreSQL", "Vercel"],
         liveUrl: "https://finflowbeta.vercel.app/",
         githubUrl: "https://github.com/Adnanne-Bourhayal/finflow-frontend",
       },
@@ -786,6 +794,10 @@ export const translations = {
       learning: "Aan het Leren",
       aiTools: "AI Tools",
       strongSkills: [
+        "Windows support",
+        "Microsoft Office",
+        "CRM tools",
+        "User access & permissions",
         "Java",
         "SQL (PostgreSQL/MySQL)",
         "HTML/CSS",
@@ -803,20 +815,20 @@ export const translations = {
     experience: {
       title: "Ervaring",
       job1: {
-        title: "Full Stack Developer",
+        title: "Stagiair softwareontwikkeling & IT-support",
         company: "UDIT",
         location: "Madrid, Spanje",
-        period: "Oct 2024 – Jun 2025",
+        period: "Nov 2024 – Jun 2025",
         highlights: [
-          "Ontwikkelde universiteit resource/klaslokaal boekingsportaal om planningsconflicten te voorkomen en resources te beheren met ASP.NET, Bootstrap, SQL, Visual Studio en Git",
-          "Stelde AI-ondersteunde workflows voor om iteratie te versnellen en kwaliteitscontroles tijdens ontwikkelingscycli te verbeteren",
+          "Ontwikkelde een universitair reserveringsportaal met ASP.NET Core, SQL en Bootstrap.",
+          "Configureerde Windows-omgevingen en gebruikersrechten, loste toegangs- en computerproblemen op en documenteerde procedures.",
         ],
       },
       job2: {
         title: "Postale Operator",
         company: "bpost",
         location: "België",
-        period: "Jun 2024 – Sep 2024",
+        period: "Studenten- en tijdelijke contracten (niet doorlopend)",
         highlights: [
           "Snelle logistieke operaties met strikte nauwkeurigheidseisen",
           "Aangetoonde betrouwbaarheid en procesdiscipline in hoge druk omgeving",
@@ -826,7 +838,7 @@ export const translations = {
         title: "Logistiek Operator",
         company: "Nike / Maersk",
         location: "België",
-        period: "2023",
+        period: "Jun 2024 – Oct 2024",
         highlights: [
           "Operationeel management in wereldwijde logistieke omgeving",
           "Hoge standaarden gehandhaafd voor nauwkeurigheid en efficiëntie in snelle operaties",
@@ -839,15 +851,15 @@ export const translations = {
         title: "Computer Science Top-Up",
         institution: "UCAM + IBES",
         location: "Online (Engels)",
-        period: "Oct 2025 – Jun 2026",
+        period: "Oct 2025 – 2026",
         description:
-          "Geavanceerd computer science programma gegeven in het Engels, gericht op moderne softwareontwikkelingspraktijken.",
+          "Engelstalig top-upprogramma. Eindproject goedgekeurd in 2026; formele diplomadocumentatie in afwachting.",
       },
       degree2: {
         title: "Hogere Technische Graad (DAM)",
-        institution: "Multiplatform Applicatieontwikkeling",
+        institution: "Pro2FP",
         location: "Spanje",
-        period: "2022 – 2024",
+        period: "Sep 2023 – Jun 2025",
         description:
           "Uitgebreid programma over Java, databases, webontwikkeling, mobiele apps en software-engineering.",
       },
@@ -863,11 +875,11 @@ export const translations = {
         spanish: "Spaans",
         spLevel: "Moedertaal",
         english: "Engels",
-        enLevel: "B2 Gevorderd — C1 bezig",
+        enLevel: "Professioneel C1 (zelfbeoordeling)",
         french: "Frans",
-        frLevel: "Basis",
+        frLevel: "Interesse om te leren",
         dutch: "Nederlands",
-        nlLevel: "Basis",
+        nlLevel: "Basis A1–A2 · aan het leren",
       },
     },
     contact: {

@@ -41,11 +41,11 @@ export function Hero() {
               transition={{ delay: 0.2 }}
               className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight text-balance leading-tight"
             >
-              Junior Software Engineer{" "}
-              <span className="text-blue-500">(Java / .NET)</span>
+              Application Support{" "}
+              <span className="text-blue-500">& Technical Support</span>
               <br />
               <span className="text-muted-foreground text-2xl sm:text-3xl lg:text-4xl font-medium">
-                Security-focused
+                Entry-level · Spanish & English
               </span>
             </motion.h1>
 
@@ -56,7 +56,7 @@ export function Hero() {
               transition={{ delay: 0.3 }}
               className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-xl leading-relaxed"
             >
-              I build secure backend systems, APIs, and enterprise-grade applications with a focus on performance, scalability, and security.
+              I help users solve technical problems, with hands-on experience in Windows support, SQL, CRM tools and application development.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -91,7 +91,7 @@ export function Hero() {
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-blue-500/20 shadow-2xl shadow-blue-500/10">
                 <Image
                   src="/images/profile.png"
-                  alt="Adnan - Junior Software Engineer"
+                  alt="Adnan - Application and Technical Support"
                   fill
                   className="object-cover object-top"
                   priority

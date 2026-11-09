@@ -43,7 +43,7 @@ export function Contact() {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/adnanne-abattah-a22bb926a",
+      href: "https://www.linkedin.com/in/adnan-abattah-a22bb926a/",
       text: "LinkedIn",
     },
     { icon: Github, label: "GitHub", href: "https://github.com/Adnanne-Bourhayal", text: "GitHub" },

@@ -10,26 +10,23 @@ const geist = Geist({ subsets: ["latin"], variable: "--font-geist-sans" })
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" })
 
 export const metadata: Metadata = {
-  title: "Adnan | Junior Developer Portfolio",
-  description:
-    "Junior Developer with a security mindset. Building modern web experiences, practical automations, and AI-powered solutions for real businesses.",
-  keywords: ["developer", "portfolio", "web development", "automation", "AI", "security", "Belgium"],
+  title: "Adnan | Application & Technical Support",
+  description: "Entry-level application and technical support. Windows, SQL, CRM and software projects. Spanish and English. Based in Belgium.",
+  keywords: ["application support", "technical support", "SQL", "CRM", "Windows", "Spanish", "Belgium"],
   authors: [{ name: "Adnan" }],
   creator: "Adnan",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://yourportfolio.com",
-    title: "Adnan | Junior Developer Portfolio",
-    description:
-      "Junior Developer with a security mindset. Building modern web experiences, practical automations, and AI-powered solutions.",
+    url: "https://adnanport.vercel.app",
+    title: "Adnan | Application & Technical Support",
+    description: "Entry-level application and technical support. Windows, SQL, CRM and software projects. Spanish and English. Based in Belgium.",
     siteName: "Adnan Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adnan | Junior Developer Portfolio",
-    description:
-      "Junior Developer with a security mindset. Building modern web experiences, practical automations, and AI-powered solutions.",
+    title: "Adnan | Application & Technical Support",
+    description: "Entry-level application and technical support. Windows, SQL, CRM and software projects. Spanish and English. Based in Belgium.",
   },
   robots: {
     index: true,

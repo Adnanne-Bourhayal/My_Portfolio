@@ -7,9 +7,9 @@ export function Footer() {
   const { t } = useLanguage()
 
   const socialLinks = [
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: ExternalLink, href: "#", label: "Portfolio" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/adnan-abattah-a22bb926a/", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/Adnanne-Bourhayal", label: "GitHub" },
+    { icon: ExternalLink, href: "https://adnanport.vercel.app/", label: "Portfolio" },
   ]
 
   return (
