@@ -4,7 +4,7 @@ Create a personal project portfolio with a responsive introduction, project case
 
 ## Run locally
 
-Use Node.js 22. Run `npm ci --legacy-peer-deps`, then `npm run dev` and open the local URL printed by Next.js. Run `npx tsc --noEmit` and `npm run build` before publishing.
+Use Node.js 22. Run `npm ci`, then `npm run dev` and open the local URL printed by Next.js. Run `npm run check` and `npm run build` before publishing.
 
 ## Make it yours
 
