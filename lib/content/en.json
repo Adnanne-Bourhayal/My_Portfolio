@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Digital tools",
+    "headlineAccent": "for small teams",
+    "languages": "Design & development",
+    "subheadline": "I build interfaces that help people organise everyday work.",
+    "viewProjects": "View projects",
+    "contactMe": "Contact"
+  },
+  "about": "A small team should be able to tell who owns a task and what happens next. This sample shows how to explain the design behind that workflow.",
+  "projects": [
+    {
+      "name": "Team inbox",
+      "summary": "A shared inbox for assigning and resolving sample requests.",
+      "detail": "Each request keeps its owner, status and notes together."
+    },
+    {
+      "name": "Workshop calendar",
+      "summary": "A booking board that groups sessions by date and capacity.",
+      "detail": "A participant can compare available dates before choosing a session."
+    }
+  ],
+  "details": "Case study",
+  "skills": [
+    "TypeScript",
+    "HTML",
+    "CSS"
+  ],
+  "experience": [
+    {
+      "title": "Practice studio",
+      "detail": "Built and tested interface prototypes with illustrative data."
+    }
+  ],
+  "education": [
+    {
+      "title": "Interaction design workshop",
+      "detail": "Prototyped a keyboard-accessible booking flow."
+    }
+  ],
+  "contactPlaceholder": "Contact details will appear here when the owner adds a public contact link.",
+  "contactAction": "Get in touch"
+}

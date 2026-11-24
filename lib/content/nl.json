@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "home": "Start",
+    "about": "Over mij",
+    "projects": "Projecten",
+    "skills": "Vaardigheden",
+    "experience": "Ervaring",
+    "education": "Opleiding",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Digitale tools",
+    "headlineAccent": "voor kleine teams",
+    "languages": "Ontwerp en ontwikkeling",
+    "subheadline": "Ik bouw interfaces die mensen helpen hun dagelijkse werk te organiseren.",
+    "viewProjects": "Bekijk projecten",
+    "contactMe": "Contact"
+  },
+  "about": "Een team moet kunnen zien wie een taak opneemt en wat de volgende stap is. Dit voorbeeld laat zien hoe je het ontwerp van zo’n werkproces beschrijft.",
+  "projects": [
+    {
+      "name": "Teaminbox",
+      "summary": "Een gedeelde inbox om voorbeeldverzoeken toe te wijzen en op te lossen.",
+      "detail": "Elk verzoek toont de eigenaar, status en notities op één plek."
+    },
+    {
+      "name": "Workshopkalender",
+      "summary": "Een planning die sessies groepeert op datum en capaciteit.",
+      "detail": "Deelnemers kunnen beschikbare datums vergelijken voordat ze een sessie kiezen."
+    }
+  ],
+  "details": "Bekijk de casus",
+  "skills": [
+    "TypeScript",
+    "HTML",
+    "CSS"
+  ],
+  "experience": [
+    {
+      "title": "Oefenstudio",
+      "detail": "Interfaceprototypes gebouwd en getest met fictieve gegevens."
+    }
+  ],
+  "education": [
+    {
+      "title": "Workshop interactieontwerp",
+      "detail": "Een boekingsproces ontworpen dat met het toetsenbord te bedienen is."
+    }
+  ],
+  "contactPlaceholder": "De contactgegevens verschijnen zodra de eigenaar een openbare contactlink toevoegt.",
+  "contactAction": "Neem contact op"
+}

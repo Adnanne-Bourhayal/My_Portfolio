@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "skills": "Competencias",
+    "experience": "Experiencia",
+    "education": "Formación",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "headline": "Herramientas digitales",
+    "headlineAccent": "para equipos pequeños",
+    "languages": "Diseño y desarrollo",
+    "subheadline": "Creo interfaces que ayudan a organizar el trabajo diario.",
+    "viewProjects": "Ver proyectos",
+    "contactMe": "Contacto"
+  },
+  "about": "Un equipo debería poder ver quién se ocupa de una tarea y cuál es el siguiente paso. Este ejemplo muestra cómo explicar las decisiones de diseño.",
+  "projects": [
+    {
+      "name": "Bandeja de equipo",
+      "summary": "Una bandeja compartida para asignar y resolver solicitudes de muestra.",
+      "detail": "Cada solicitud reúne responsable, estado y notas."
+    },
+    {
+      "name": "Calendario de talleres",
+      "summary": "Un tablero que agrupa sesiones por fecha y aforo.",
+      "detail": "Cada participante puede comparar las fechas disponibles antes de elegir."
+    }
+  ],
+  "details": "Ver el caso",
+  "skills": [
+    "TypeScript",
+    "HTML",
+    "CSS"
+  ],
+  "experience": [
+    {
+      "title": "Estudio de prácticas",
+      "detail": "Diseño y prueba de prototipos con datos ficticios."
+    }
+  ],
+  "education": [
+    {
+      "title": "Taller de diseño de interacción",
+      "detail": "Prototipo de reservas accesible con teclado."
+    }
+  ],
+  "contactPlaceholder": "Los datos de contacto aparecerán cuando se añada un enlace público.",
+  "contactAction": "Contactar"
+}

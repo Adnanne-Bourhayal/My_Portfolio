@@ -1,0 +1,12 @@
+node_modules
+.next/
+.vercel/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.tsbuildinfo
+.DS_Store
+._*
+public/private/
