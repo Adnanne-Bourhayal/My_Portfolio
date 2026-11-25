@@ -1,5 +1,7 @@
 # Portfolio template
 
+[Open the live template preview](https://sample-studio-portfolio-template.vercel.app/) to try the layout with sample projects.
+
 Create a personal project portfolio with a responsive introduction, project case studies, skills, work and education sections. Visitors can change the theme or switch between English, Spanish and Dutch. The sample projects and work history are fictional.
 
 ## Run locally
